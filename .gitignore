@@ -10,3 +10,6 @@ doc/app
 *.swp
 *~
 .DS_Store
+*.project
+ext/Rakefile
+
