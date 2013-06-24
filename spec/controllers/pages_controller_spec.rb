@@ -28,4 +28,10 @@ describe PagesController do
       response.should be_success
     end
   end
+  describe "GET 'sign up'" do
+    it "returns http success" do
+      get 'sign up'
+      response.should be_success
+    end
+  end
 end
