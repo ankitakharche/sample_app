@@ -30,7 +30,7 @@ describe PagesController do
   end
   describe "GET 'sign up'" do
     it "returns http success" do
-      get 'sign up'
+      get 'signup'
       response.should be_success
     end
   end
